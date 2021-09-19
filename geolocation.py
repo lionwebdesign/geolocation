@@ -5,7 +5,7 @@ class GEOLOCATION():
         self.data  = {
             "considerIp": "true"
         }
-        self.api_key = "AIzaSyA-C2U9OWidR-wfrXZl5OEXbosiVVFOhC0"
+        self.api_key = "API_GOOGLE"
         self.url = (f"https://www.googleapis.com/geolocation/v1/geolocate?key={self.api_key}")
         
     def get_location(self):
